@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(npm --version)",
+      "Bash(chmod +x *)",
+      "Bash(docker build *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:9099/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(docker port *)",
+      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:5173)",
+      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:4000)",
+      "Bash(curl -sf http://localhost:5173 -o /dev/null)",
+      "Bash(curl -sf http://localhost:5173/src/index.css)",
+      "Bash(curl -sf http://localhost:5173/src/components/DisasterEffect.jsx)",
+      "Bash(curl -sf http://localhost:5173/src/components/PetMascots.jsx)",
+      "Bash(curl -sf http://localhost:5173/src/pages/Home.jsx)",
+      "Bash(curl -sf http://localhost:5173/src/pages/Quiz.jsx)"
+    ]
+  }
+}
