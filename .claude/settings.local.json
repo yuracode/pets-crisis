@@ -17,7 +17,13 @@
       "Bash(curl -sf http://localhost:5173/src/components/DisasterEffect.jsx)",
       "Bash(curl -sf http://localhost:5173/src/components/PetMascots.jsx)",
       "Bash(curl -sf http://localhost:5173/src/pages/Home.jsx)",
-      "Bash(curl -sf http://localhost:5173/src/pages/Quiz.jsx)"
+      "Bash(curl -sf http://localhost:5173/src/pages/Quiz.jsx)",
+      "Bash(bash -n /home/cyber/pets-crisis/docker-entrypoint.sh)",
+      "Bash(tr -d '\\\\r')",
+      "Bash(mv /tmp/dee.sh /home/cyber/pets-crisis/docker-entrypoint.sh)",
+      "Bash(git add *)",
+      "Bash(git log *)",
+      "Bash(node *)"
     ]
   }
 }
